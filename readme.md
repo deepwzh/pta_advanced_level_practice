@@ -7,3 +7,7 @@
 6. [x] 1006 Sign In and Sign Out 2018-09-01
 7. [ ] 1007 Maximum Subsequence Sum 2018-09-01
 8. [x] 1008 Elevator 2018-09-02
+9. [x] 1009 Product of Polynomials 2018-09-02
+10. [] 1010 Radix 2018-09-02
+11. [x] 1011 World Cup Betting 2018-09-03
+15. [x] 1015 Reversible Primes 2018-09-04 
