@@ -11,4 +11,5 @@
 10. [] 1010 Radix 2018-09-02
 11. [x] 1011 World Cup Betting 2018-09-03
 15. [x] 1015 Reversible Primes 2018-09-04 
-20. [x] 1020 Tree Traversals 
+16. [x] 1019 General Palindromic Number 2018-09-05
+17. [x] 1020 Tree Traversals 2018-09-04
