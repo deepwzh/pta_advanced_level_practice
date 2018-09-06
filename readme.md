@@ -15,3 +15,8 @@
 15. [x] 1019 General Palindromic Number 2018-09-05
 16. [x] 1020 Tree Traversals 2018-09-04
 31. [x] 1031 Hello World for U 2018-09-06
+
+# PTA 甲级排名情况
+时间|排名|所在页数
+--|--|--
+2018-09-06 |7586/23755 |P152/P680
