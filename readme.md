@@ -8,8 +8,9 @@
 7. [ ] 1007 Maximum Subsequence Sum 2018-09-01
 8. [x] 1008 Elevator 2018-09-02
 9. [x] 1009 Product of Polynomials 2018-09-02
-10. [] 1010 Radix 2018-09-02
+10. [ ] 1010 Radix 2018-09-02
 11. [x] 1011 World Cup Betting 2018-09-03
-15. [x] 1015 Reversible Primes 2018-09-04 
-16. [x] 1019 General Palindromic Number 2018-09-05
-17. [x] 1020 Tree Traversals 2018-09-04
+13. [x] 1013 Battle Over Cities 
+14. [x] 1015 Reversible Primes 2018-09-04 
+15. [x] 1019 General Palindromic Number 2018-09-05
+16. [x] 1020 Tree Traversals 2018-09-04
