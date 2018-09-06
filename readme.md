@@ -14,3 +14,4 @@
 14. [x] 1015 Reversible Primes 2018-09-04 
 15. [x] 1019 General Palindromic Number 2018-09-05
 16. [x] 1020 Tree Traversals 2018-09-04
+31. [x] 1031 Hello World for U 2018-09-06
