@@ -19,8 +19,9 @@
 19. [x] 1025 PAT Ranking 2018-09-11
 20. [x] 1027 Colors in Mars 2018-09-07
 21. [x] 1028 List Sorting 2018-09-12
-22. [x] 1029 Median
+22. [x] 1029 Median 2018-09-12
 23. [x] 1031 Hello World for U 2018-09-06
+24. [x] 1035 Password 2018-09-12
 
 # PTA 甲级排名情况
 时间|完成题数|分数|排名|所在页数
