@@ -3,6 +3,7 @@
 #include <iostream>
 #include <algorithm>
 #include <vector>
+#include <map>
 using namespace std;
 struct Node {
     string addr;
@@ -12,20 +13,30 @@ struct Node {
     }
 };
 vector<Node> vec;
+map<string, pair<string, int> > m;
 int main() {
     int n;
-    string addr;
-    cin >> n >> addr;
+    string start_addr;
+    cin >> n >> start_addr;
     for (int i = 0; i < n; i++) {
         Node node;
-        string next;
-        cin >> node.addr >> node.key >> next; 
+        string addr, target;
+        int key; 
+        cin >> addr >> key >> target; 
+        m[addr] = make_pair(target, key);
+    }
+    string cur_node = start_addr;
+    while (cur_node != "-1") {
+        Node node;
+        node.addr = cur_node; 
+        node.key = m[cur_node].second;
         vec.push_back(node);
+        cur_node = m[cur_node].first;
     }
     if (vec.size() == 0) {
-        cout << n << " " << -1 << endl;
+        cout << "0 -1"  << endl;
         return 0;
-    }
+    } 
     sort(vec.begin(), vec.end());
     cout << n << " " << vec[0].addr << endl;
     Node node;
