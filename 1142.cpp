@@ -1,8 +1,3 @@
-/**
- * 题目：1142 Maximal Clique
- * 时间：2019.1.30
- * 得分：5/25
-*/
 #include <cstdio>
 #include <set>
 #include <iostream>
@@ -39,7 +34,7 @@ int main() {
         }
         if (!flag) {
             cout << "Not a Clique" << endl; 
-            break;
+            continue;
         }
         bool flag1 = false;
         for (int q = 1; q <= Nv; q++) {
