@@ -16,13 +16,14 @@ int main() {
         int a, b;
         scanf("%d%d", &a, &b);
         int t = -1;
-        for (int j = 0; j < N; j++) {
-            int d = V[j];
-            if (t == -1 && ((d >= a && b >= d)||(d >= b && a >= d))) {
-                t = j;
-                break;
+        if (vis.count(a) && vis.count(b)) {
+            for (int j = 0; j < N; j++) {
+                int d = V[j];
+                if (t == -1 && ((d >= a && b >= d)||(d >= b && a >= d))) {
+                    t = j;
+                    break;
+                }
             }
-            
         }
         if (t == -1) {
             bool found_a = vis.count(a);
