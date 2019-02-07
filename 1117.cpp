@@ -13,7 +13,7 @@ int main() {
         vec.push_back(d);
     }
     sort(vec.begin(), vec.end(), greater<int>());
-    int res = 0;
+    int res = N;
     for (int i = 0; i < N; i++) {
         if (vec[i] <= i + 1) {
             res = i;
