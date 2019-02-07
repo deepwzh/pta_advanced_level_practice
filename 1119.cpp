@@ -88,5 +88,6 @@ int main() {
         }
         printf("%d", res[i]);
     }
+    printf("\n");
     return 0;
 }
