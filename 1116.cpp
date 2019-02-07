@@ -37,7 +37,7 @@ int main() {
             }
             if (m[d] == 0) {
                 printf("%04d: Mystery Award\n", d);
-            } else if (is_prime(d)) {
+            } else if (is_prime(m[d] + 1)) {
                 printf("%04d: Minion\n", d);
             } else {
                 printf("%04d: Chocolate\n", d);
